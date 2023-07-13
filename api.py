@@ -11,7 +11,7 @@ class Mail(BaseModel):
     subject: str
     body: str
 
-# Define a route to send mail
+# Define to send mail
 @app.post("/send-mail/")
 def send_mail(mail: Mail):
     # 
